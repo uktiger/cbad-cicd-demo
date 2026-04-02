@@ -1,0 +1,17 @@
+git init
+git remote add origin https://github.com/uktiger/cbad-cicd-demo.git
+
+mkdir .github\workflows
+
+git config --global credential.helper manager
+git add README.md
+OR (If all updates from current folder then following command
+git add .
+git commit -m "Comment As per Updates"
+git push -u origin main
+
+#Following command to move out from main branch and create dev branch
+git checkout -b dev
+git add .
+git commit -m "Comment As per Updates"
+git push -u origin dev
