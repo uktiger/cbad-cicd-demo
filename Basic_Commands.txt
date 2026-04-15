@@ -15,3 +15,6 @@ git checkout -b dev
 git add .
 git commit -m "Comment As per Updates"
 git push -u origin dev
+#To check currently we are located at which github repo
+git remote -v 
+s
